@@ -44,6 +44,11 @@
             android:id="@+id/action_ThreeFragment_to_SecondFragment"
             app:destination="@id/SecondFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/fourFragment"
+        android:name="com.mjgl.basic_intro.FourFragment"
+        android:label="fragment_four"
+        tools:layout="@layout/fragment_four" />
 
 
 </navigation>
